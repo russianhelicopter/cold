@@ -1,0 +1,51 @@
+body {
+    background: linear-gradient(90deg, rgba(173,173,173,1) 0%, rgba(199,199,199,1) 100%);   
+}
+
+@font-face {
+    font-family: "SF Regular";
+    src: url(fonts/SF-Pro-Display-Regular.otf);
+}
+
+@font-face {
+    font-family: "SF Bold";
+    src: url(fonts/SF-Pro-Display-Bold.otf);
+}
+
+.header {
+    opacity: 95%;
+    background: rgb(111,111,111);
+    width: 900px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    border-radius: 10px;
+    position: relative
+}
+
+ul {
+    list-style-type: none;
+    color: white;
+    font-size: 32px;
+    display: inline-flex;
+    margin: 0;
+    position: absolute;            
+    top: 50%;                         
+    transform: translate(0, -50%)
+}
+
+li {
+    padding-right: 60px;
+}
+
+a {
+    text-decoration: none;
+    font-family: "SF Bold";
+    color: rgb(220,220,220);
+}
+
+a:hover {
+    color: rgb(260, 260, 260);
+    cursor: crosshair;
+}
